@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animate</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript"src="animation.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+        
+        nav {
+            position: fixed;
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 0;
+        }
+        
+        #fpage {
+            width: 100%;
+            background-color: #CCC;
+            height: 100%;
+        }
+        
+        #spage {
+            width: 100%;
+            background-color: #CC0;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="empty"></div>
+    <nav>
+        <div>
+            <button id="vertical">vertical</button>
+            <button id="horisontal">horisontal</button>
+        </div>
+        <ul>
+            <li>
+                <a href="#fpage">First page</a>
+            </li>
+            <li>
+                <a href="#spage">Second page</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="fpage">
+        <h1>First page</h1>
+    </section>
+    <section id="spage">
+        <h1>Second page</h1>
+    </section>
+</body>
+
+</html>
