@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Gallery</title>
+</head>
+
+<body>
+
+  <!-- container-->
+  <div class="container">
+
+    <!-- nav-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="gallery.html">Gallery</a>
+          <a class="nav-link" href="about.html">About Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 2 columns-->
+    <div class="row">
+      <section class="col-sm-8">
+
+        <!-- header-->
+        <header class="row">
+          <div class="col">
+            <h1>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</h1>
+          </div>
+        </header>
+
+        <!-- card, 1. column-->
+        <article class="row">
+          <div class="col">
+            <div class="card-group">
+              <div class="card">
+                <img src="http://placekitten.com/1140/402" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#picModal">
+                    Open Image
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="http://placekitten.com/1140/401" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to additional content.
+                  </p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#picModal">
+                    Open Image
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="http://placekitten.com/1140/405" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This card has even longer content than the first to show that equal height
+                    action.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#picModal">
+                    Open Image
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- modal -->
+      <div class="modal fade" id="picModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="http://placekitten.com/1140/402" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- jumbotron, 2. column-->
+      <aside class="col">
+        <div class="jumbotron">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus purus, facilisis quis libero vel,
+            condimentum consequat augue. Suspendisse potenti. Praesent volutpat, lorem at pretium tincidunt, arcu justo
+            efficitur dui, a viverra elit dolor id eros. Ut ut suscipit tortor. Nulla pellentesque placerat risus, id
+            viverra velit scelerisque id. Mauris massa tellus, dignissim ut ante sit amet, convallis vestibulum tortor.
+            Donec pellentesque suscipit rhoncus. Quisque gravida porttitor imperdiet. Integer quis ullamcorper ante.
+          </p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
